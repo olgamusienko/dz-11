@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Person unit tests ">
+
+    <test name="Person regression">
+        <classes>
+            <class name="person.PersonsTests"/>
+            <class name="person.SecondPersonsTests"/>
+        </classes>
+    </test>
+</suite>
